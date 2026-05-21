@@ -24,7 +24,26 @@ and protecting PHI.
 | **[AGENTS.md](./AGENTS.md)**             | See how AI agent roles divide work and chain together                                        |
 | **[ARCHITECTURE.md](./ARCHITECTURE.md)** | Understand the system: domain model, request lifecycle, infra                                |
 | **[ABSTRACTIONS.md](./ABSTRACTIONS.md)** | Use the canonical code patterns: services, jobs, controllers, React hooks, component library |
-| **[WIREFRAMES.md](./WIREFRAMES.md)**     | See what every screen looks like and which components compose it                             |
+| **[WIREFRAMES.md](./WIREFRAMES.md)**     | Screen inventory, open design questions, prototype → component map                           |
+
+---
+
+## Prototypes
+
+Hi-fi interactive prototypes live in `prototypes/`. Open any file directly in a
+browser — no build step, no server, no install.
+
+| Screen                                | File                                                       |
+| ------------------------------------- | ---------------------------------------------------------- |
+| Dashboard                             | [`prototypes/dashboard.html`](./prototypes/dashboard.html) |
+| Campaign List + Detail + New Campaign | [`prototypes/campaigns.html`](./prototypes/campaigns.html) |
+| Patient List + Detail                 | [`prototypes/patients.html`](./prototypes/patients.html)   |
+| Analytics                             | [`prototypes/analytics.html`](./prototypes/analytics.html) |
+
+These are the **stakeholder-facing artifacts** — show these, not WIREFRAMES.md.
+When a screen changes, update the prototype HTML first. Open design questions
+that surface during review belong in
+[WIREFRAMES.md](./WIREFRAMES.md#open-design-questions).
 
 ---
 
@@ -50,6 +69,7 @@ and protecting PHI.
 
 ```
 underserved-wellness-hub/
+├── prototypes/             # Hi-fi HTML prototypes (open in browser)
 ├── api/                        # Rails API
 │   ├── app/
 │   │   ├── controllers/api/v1/
