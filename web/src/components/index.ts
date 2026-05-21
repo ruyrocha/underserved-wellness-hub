@@ -69,6 +69,13 @@ export type { FeedItem } from "./data-display/ActivityFeed/ActivityFeed";
 export { CampaignListItem } from "./data-display/CampaignListItem/CampaignListItem";
 export type { CampaignListItemProps } from "./data-display/CampaignListItem/CampaignListItem";
 
+export { MiniStat } from "./data-display/MiniStat/MiniStat";
+
+export { MessagePreview } from "./data-display/MessagePreview/MessagePreview";
+
+export { DeliveryLog } from "./data-display/DeliveryLog/DeliveryLog";
+export type { DeliveryLogItem } from "./data-display/DeliveryLog/DeliveryLog";
+
 // ── Charts ──────────────────────────────────────────────────────────────────
 export { LineChart } from "./charts/LineChart/LineChart";
 export type { LineChartDataPoint } from "./charts/LineChart/LineChart";
