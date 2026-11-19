@@ -266,4 +266,4 @@ These rules are enforced in code and must never be bypassed:
 
 ## License
 
-Private — all rights reserved. Not open source.
+This project is licensed under the [MIT License](LICENSE).
